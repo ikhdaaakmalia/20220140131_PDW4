@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 4 PDW</title>
+    <link rel="stylesheet" href="styles/style.css">                 <!--menghubungkan denga folder styles-->
+    <style>
+        body {
+            background-image: url(assets/bgr.jpeg);                 /*memberikan background*/
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="card">
+        <h1 align="center" style="color: grey; font-style: inherit; font-size: 50px">ﾟ⋆ K U C I N G ⋆ ﾟ</h1>               <!--membuat judul pada h1-->
+        <img align= "left" src="assets/kucing.jpeg" alt="gambar kucing">    <!--mengatur gambar berada disebelah kiri, dan memberi keterangan gambar dgn command alt-->
+        <div>
+            <p style="font-size: 17px;" id="waktu"></p>     <!--membuat id untuk mendeklarasikan waktu-->>
+            <script src="./script/main.js"></script>     <!--menghubungan ke javascriptnya-->>
+            <p style="color: black;">Kucing adalah mamalia domestik yang sering dijadikan hewan peliharaan oleh manusia.
+                Mereka termasuk dalam <i>famili felidae</i> dan merupakan salah satu hewan peliharaan yang paling populer di
+                seluruh dunia. 
+            </p>             
+            <div class="login-form">                                            <!--membuat bagian dari isi loginnya-->>
+                <label for="username">Username:</label> 
+                <input type="text" id="username" placeholder="Username"> 
+                <label for="password">Password:</label> 
+                <input type="password" id="password" placeholder="Password"> 
+                <button onclick="Login()">Login</button>
+                <script>
+                    function Login() {
+                        alert("Hurrayyy Login berhasil!!!");                /*hasil pop up setelah di login*/
+                    }
+                </script> 
+            </div>
+        </div>     
+    </div>
+    </section> 
+    
+    <style>                 
+        .card {                                                 
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 880px;
+            background-color: paleturquoise;
+            border-radius: 80px;
+            box-shadow: 0 0 10px #0000001a;
+        }
+
+    </style>
+</body>
+
+</html>

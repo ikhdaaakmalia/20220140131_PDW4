@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 1000px;
+    padding: 60px;
+    margin: 20px auto;
+    height: 500px;
+    margin: auto;
+    max-width: 880px;
+
+}
+.card img{
+    margin: 20px;
+    width: 20rem;
+    right: 20px;
+}
+
+p {
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 0;
+    padding-top: 0;
+    margin: 20px;
+}
+
+.login-form {
+    text-align: center; /* Mengatur posisi horizontal ke tengah */
+}
+
+.login-form button {
+    margin-top: 20px; /* Menambahkan margin atas pada tombol */
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;        /*untuk jadiin tampinya full 100%
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    height: 100vh;        /*untuk jadiin tampinya full 100%
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color: hsl(314, 18%, 19%);
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/*body {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 40px;
+    display: flex;
+    color: brown;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    border
+}*/
